@@ -1,0 +1,68 @@
+/* Initiation Messages */
+//Currently in the standby mode
+//Display:
+	printf("Start? Press A")
+//if A  is Pressed, interrupt to operation
+
+
+/* Emergency Stop */
+//If the emergency buttom is pressed
+
+	//Option1:
+		Set MCLR bit to 0 to Reset the whole program
+	//Option2:
+		//Display
+			//stop mechanical parts
+			//printf("    **STOP**    "); 	//might not be necessary
+		//Interrupt -> back to standby mode in the main funcion
+
+//After this, the machine is complete restarted
+
+
+/* Termination Messages */
+//Want to display below per user's request:
+
+Total Number of Cans
+Number of cans for each category
+Overall time of the operation
+
+//Dispay:
+
+	A:Total   B:Pop
+	C:Tin     D:Time
+
+//If any key from 1~4 is pressed, (Key interrupt)
+	//Use code in Keypad interrupt file
+	//puntch() the Info for displayed messages into the top row,
+	//puntch() the corresponding value to the bottom row
+
+	//Display(e.g.):
+		Total Can Sorted
+			XX
+	//Display for 5 seconds
+
+	//Display:
+	Back:#    Exit:*
+
+	//If 0 key is pressed
+	Go back to Rolling display by exiting interrupt
+
+	//If * pressed
+
+		Exit: *
+			//Optional: Store information of the current run into the TABLE for further reference
+			//Current Run is seen as completed
+			//complete the run and Reset the WHOLE program by setting MCLR to 0(Active Low)
+	//Else:
+			//After 20 seconds, exit
+
+//Else:
+		//After 20 seconds, exit
+
+
+//The above actions indicate the program is completely Reset
+//* key has to be pressed for the program to restart
+
+
+
+

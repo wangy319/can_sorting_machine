@@ -1,0 +1,19 @@
+\\ BoardTest_DB4
+
+Oscillator Used: 	External 10MHZ only
+Language: 			C MPLAB XC8
+LCD: 				Hitiachi HD44780 16x2
+KEYPAD: 			Matrix 4X4
+RTC:				DS1307
+Arduino:			Not Used
+A2D:				Not Used
+
+
+
+This piece of code was created for the purpose of testing the functionality of DebBugger V4 development board after they were manufacturered. The features of this code include:
+
+- Setting RTC time to 2016 December 31, 23:59:45, then read the time kept by the RTC. Result is deplayed on the first line of the LCD.
+
+- Read from keypad input and display on the second line of the LCD.
+
+- Flash every unused pin every 4 seconds to test debug module.

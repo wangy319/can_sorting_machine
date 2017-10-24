@@ -1,0 +1,15 @@
+\\ PIC18_Port_Test
+
+Oscillator Used: 	External 10MHZ only
+Language: 			C MPLAB XC8
+LCD: 				Not Used
+KEYPAD: 			Not Used
+RTC:				Not used
+Arduino:			Not Used
+A2D:				Not Used
+
+The "LED DEBUG" switches below the LED array serve to switch the debug LEDs on and off, ensure those switches are set to the ON (up) position. Otherwise the corrosponding column of debug LEDs will not functoin.
+
+This sample code flashes each LED in the debug section of the board sequentialy, once by one. Note that for port test to run properly, the two headers inteh A2D section should be left open, and the signal simulation switchs should all be left in the neutrual position.  Additionally, the progrmam / run switch should be flipped ot the RUN position, as the programmer will try to enforce state of RB6 and RB7.
+
+The pin RB1 may not flash as part of the sequence if the keypad encoder PIC (PIC18F2550) is present and programmed. This is normal, since the keypad PIC uses RB1 to send interrupt to the main PIC. RB1 shuold flash normally in sequence if the user hold down the 'D' key on the keypad. (The keypad PIC uses 5 pins in total, and the letter D will allow it to pull up all RB1, RB4:7)

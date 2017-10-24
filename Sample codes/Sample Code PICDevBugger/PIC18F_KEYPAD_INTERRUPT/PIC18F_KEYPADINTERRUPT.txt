@@ -1,0 +1,12 @@
+\\ PIC18_KEYPADINTERRUPT
+
+Oscillator Used: 	External 10MHZ only
+Language: 			C MPLAB XC8
+LCD: 				Hitiachi HD44780 16x2
+KEYPAD: 			Matrix 4X4
+RTC:				Not Used
+Arduino:			Not Used
+A2D:				Not Used
+
+This code serves as a demostartion for usage of the PICs interrupt feature in XC8.
+The first line of the LCD cycles between "Chocoloate?" - "CHOCOLATE?!". While the second line of the lcd will display the last key pressed on the keypad. The PICs interrupt feature is used to display the keypad input character on the LCD. The main routine can execute continuously and the LCD print routine is only invoked by an interrupt.

@@ -1,0 +1,312 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID SPEEDOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"33 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"42 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"37 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"18 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"35 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"30 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\Umul24.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 0 0 ]
+"24
+[v _memcpyee memcpyee `(v  1 e 0 0 ]
+"48
+[v ___eetoc __eetoc `(uc  1 e 1 0 ]
+"56
+[v ___eetoi __eetoi `(ui  1 e 2 0 ]
+"64
+[v ___eetom __eetom `(um  1 e 3 0 ]
+"72
+[v ___eetol __eetol `(ul  1 e 4 0 ]
+"80
+[v ___ctoee __ctoee `(uc  1 e 1 0 ]
+"87
+[v ___itoee __itoee `(ui  1 e 2 0 ]
+"94
+[v ___mtoee __mtoee `(um  1 e 3 0 ]
+"101
+[v ___ltoee __ltoee `(ul  1 e 4 0 ]
+"108
+[v ___eetoft __eetoft `(f  1 e 3 0 ]
+"116
+[v ___eetofl __eetofl `(d  1 e 3 0 ]
+"124
+[v ___fttoee __fttoee `(f  1 e 3 0 ]
+"131
+[v ___fltoee __fltoee `(d  1 e 3 0 ]
+"49 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"19 F:\Electronics\Embeded\PIC Microcontroller\MPLAB-XC8\PWM PIC - MPLAB XC8\pwm.X\newmain.c
+[v _PWM_Max_Duty PWM_Max_Duty `(i  1 e 2 0 ]
+"24
+[v _PWM1_Init PWM1_Init `(i  1 e 2 0 ]
+"30
+[v _PWM2_Init PWM2_Init `(i  1 e 2 0 ]
+"36
+[v _PWM1_Duty PWM1_Duty `(i  1 e 2 0 ]
+"47
+[v _PWM2_Duty PWM2_Duty `(i  1 e 2 0 ]
+"58
+[v _PWM1_Start PWM1_Start `(i  1 e 2 0 ]
+"76
+[v _PWM1_Stop PWM1_Stop `(i  1 e 2 0 ]
+"82
+[v _PWM2_Start PWM2_Start `(i  1 e 2 0 ]
+"100
+[v _PWM2_Stop PWM2_Stop `(i  1 e 2 0 ]
+"106
+[v _main main `(v  1 e 0 0 ]
+"866 C:\Program Files (x86)\Microchip\xc8\v1.32\include\pic16f877a.h
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @21 ]
+"1047
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @27 ]
+"1335
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1457
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1768
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"2231
+[v _EEDATA EEDATA `VEuc  1 e 1 @268 ]
+"2237
+[v _EEADR EEADR `VEuc  1 e 1 @269 ]
+"2255
+[v _EECON1 EECON1 `VEuc  1 e 1 @396 ]
+"2299
+[v _EECON2 EECON2 `VEuc  1 e 1 @397 ]
+"2349
+[v _CARRY CARRY `VEb  1 e 0 @24 ]
+"2359
+[v _CCP1M2 CCP1M2 `VEb  1 e 0 @186 ]
+"2361
+[v _CCP1M3 CCP1M3 `VEb  1 e 0 @187 ]
+"2363
+[v _CCP1X CCP1X `VEb  1 e 0 @189 ]
+"2365
+[v _CCP1Y CCP1Y `VEb  1 e 0 @188 ]
+"2375
+[v _CCP2M2 CCP2M2 `VEb  1 e 0 @234 ]
+"2377
+[v _CCP2M3 CCP2M3 `VEb  1 e 0 @235 ]
+"2379
+[v _CCP2X CCP2X `VEb  1 e 0 @237 ]
+"2381
+[v _CCP2Y CCP2Y `VEb  1 e 0 @236 ]
+"2441
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2559
+[v _RD RD `VEb  1 e 0 @3168 ]
+"2561
+[v _RD0 RD0 `VEb  1 e 0 @64 ]
+"2563
+[v _RD1 RD1 `VEb  1 e 0 @65 ]
+"2565
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"2567
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"2643
+[v _T2CKPS0 T2CKPS0 `VEb  1 e 0 @144 ]
+"2645
+[v _T2CKPS1 T2CKPS1 `VEb  1 e 0 @145 ]
+"2663
+[v _TMR2ON TMR2ON `VEb  1 e 0 @146 ]
+"2703
+[v _TRISC1 TRISC1 `VEb  1 e 0 @1081 ]
+"2705
+[v _TRISC2 TRISC2 `VEb  1 e 0 @1082 ]
+"2759
+[v _WR WR `VEb  1 e 0 @3169 ]
+"2761
+[v _WREN WREN `VEb  1 e 0 @3170 ]
+"17 F:\Electronics\Embeded\PIC Microcontroller\MPLAB-XC8\PWM PIC - MPLAB XC8\pwm.X\newmain.c
+[v _freq freq `l  1 e 4 0 ]
+"106
+[v _main main `(v  1 e 0 0 ]
+{
+"108
+[v main@j j `ui  1 a 2 55 ]
+[v main@i i `ui  1 a 2 53 ]
+"132
+} 0
+"82
+[v _PWM2_Start PWM2_Start `(i  1 e 2 0 ]
+{
+"98
+} 0
+"30
+[v _PWM2_Init PWM2_Init `(i  1 e 2 0 ]
+{
+[v PWM2_Init@fre fre `l  1 p 4 6 ]
+"34
+} 0
+"47
+[v _PWM2_Duty PWM2_Duty `(i  1 e 2 0 ]
+{
+[v PWM2_Duty@duty duty `ui  1 p 2 46 ]
+"56
+} 0
+"58
+[v _PWM1_Start PWM1_Start `(i  1 e 2 0 ]
+{
+"74
+} 0
+"24
+[v _PWM1_Init PWM1_Init `(i  1 e 2 0 ]
+{
+[v PWM1_Init@fre fre `l  1 p 4 6 ]
+"28
+} 0
+"36
+[v _PWM1_Duty PWM1_Duty `(i  1 e 2 0 ]
+{
+[v PWM1_Duty@duty duty `ui  1 p 2 46 ]
+"45
+} 0
+"28 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+{
+[v ___lwtoft@c c `ui  1 p 2 8 ]
+"31
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 41 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 45 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 40 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 32 ]
+"73
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 27 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 31 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 30 ]
+[v ___ftmul@exp exp `uc  1 a 1 26 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 16 ]
+[v ___ftmul@f2 f2 `f  1 p 3 19 ]
+"157
+} 0
+"49 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"52
+[v ___ftdiv@f3 f3 `f  1 a 3 11 ]
+"51
+[v ___ftdiv@sign sign `uc  1 a 1 15 ]
+[v ___ftdiv@exp exp `uc  1 a 1 14 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 10 ]
+"49
+[v ___ftdiv@f2 f2 `f  1 p 3 0 ]
+[v ___ftdiv@f1 f1 `f  1 p 3 3 ]
+"78
+} 0
+"32 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 13 ]
+"32
+[v ___awtoft@c c `i  1 p 2 8 ]
+"42
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"19 F:\Electronics\Embeded\PIC Microcontroller\MPLAB-XC8\PWM PIC - MPLAB XC8\pwm.X\newmain.c
+[v _PWM_Max_Duty PWM_Max_Duty `(i  1 e 2 0 ]
+{
+"22
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"11
+[v ___aldiv@quotient quotient `l  1 a 4 2 ]
+"12
+[v ___aldiv@sign sign `uc  1 a 1 1 ]
+[v ___aldiv@counter counter `uc  1 a 1 0 ]
+"6
+[v ___aldiv@divisor divisor `l  1 p 4 0 ]
+[v ___aldiv@dividend dividend `l  1 p 4 4 ]
+"42
+} 0

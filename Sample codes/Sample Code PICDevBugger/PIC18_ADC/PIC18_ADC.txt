@@ -1,0 +1,13 @@
+\\ PIC18_ADC
+
+Oscillator Used: 	External 10MHZ only
+Language: 			C MPLAB XC8
+LCD: 				Hitiachi HD44780 16x2
+KEYPAD: 			Not Used
+RTC:				Not used
+Arduino:			Not Used
+A2D:				Header in both
+
+
+This code reads analge input on pins RA2 and RA3 and display the result on the LCD. The numbers displayed are in hex representation. Total conversion output is 10 bits ranging from 3ff to 000. The left most digit refers to the most significant 2 bits stored in ADRESH, and the 2 following letters are the hex representation of the lower byte of the A2D conversoin result, stored in ADRESH.
+The 2 potentiometers on the A2D section can be used to provide the ADC with a test voltage. The 2 jumper links connectes the wipers of Vref+ and Vref- potientiometers to RA3 and RA2 respectively.

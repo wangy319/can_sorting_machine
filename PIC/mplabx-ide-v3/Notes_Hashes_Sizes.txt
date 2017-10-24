@@ -1,0 +1,15 @@
+MPLAB X IDE v3.50 features:
+
+
+
+md5 checksums:
+----------------
+d20f08bb8822c876542308bf4a75a590  linux/MPLABX-v3.50-linux-installer.tar
+197778277fb0f6658fe3ff237e42fe40  mac/MPLABX-v3.50-osx-installer.dmg
+736a5902add15729dd4743a30da0c942  windows/MPLABX-v3.50-windows-installer.exe
+
+Size in bytes:
+----------------
+-rw-rw-r-- 1 bamboo bamboo 549928960 Dec 12 20:25 linux/MPLABX-v3.50-linux-installer.tar
+-rw-rw-r-- 1 bamboo bamboo 452192256 Dec 12 20:23 mac/MPLABX-v3.50-osx-installer.dmg
+-rwxr-xr-x 1 bamboo bamboo 579084288 Dec 12 20:29 windows/MPLABX-v3.50-windows-installer.exe

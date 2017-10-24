@@ -1,0 +1,68 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"62 D:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 D:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 D:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 D:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 D:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 D:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 D:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 D:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 D:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"17 C:\Users\Michael\OneDrive - University of Toronto\AER201 Summer Project\Code and Sources\Francis\PortTest.X\main.c
+[v _delay_10ms delay_10ms `(v  1 e 1 0 ]
+"25
+[v _main main `(v  1 e 1 0 ]
+"895 D:\Program Files (x86)\Microchip\xc8\v1.38\include\pic18f4620.h
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"1027
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1159
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1291
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1423
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"1480
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1701
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1922
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2143
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2364
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"6465
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+"11 C:\Users\Michael\OneDrive - University of Toronto\AER201 Summer Project\Code and Sources\Francis\PortTest.X\main.c
+[v _i i `i  1 e 2 0 ]
+"12
+[v _tmp tmp `uc  1 e 1 0 ]
+"25
+[v _main main `(v  1 e 1 0 ]
+{
+"90
+} 0
+"17
+[v _delay_10ms delay_10ms `(v  1 e 1 0 ]
+{
+[v delay_10ms@n n `uc  1 a 1 wreg ]
+[v delay_10ms@n n `uc  1 a 1 wreg ]
+[v delay_10ms@n n `uc  1 a 1 1 ]
+"21
+} 0

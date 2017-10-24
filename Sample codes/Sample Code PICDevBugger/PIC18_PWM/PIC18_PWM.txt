@@ -1,0 +1,12 @@
+\\ PIC18_PWM
+Oscillator Used: 	Internal, 8MHz with PLL
+Language: 			C MPLAB XC8
+LCD: 				Not Used
+KEYPAD: 			Not Used
+RTC:				Not Used
+Arduino:			Not Used
+A2D:				Not Used
+
+This code is a demstration of the PWM features of the PIC18F2460. The program will set an PWM output on RC2 and slowly increment its brightness. The PWM value set is displayed on the LEDs of PORTB in binary form. If you do not wish the see the flahsing LEDs on PORTB and only RC2, simply turn off the PORTB debig led using the dip switch below the debug LED grid.
+PWM frequency setting is not very precise, the PWM frequency of this exampls code is measured to be around 50Khz.
+Note: RB1 might not illuminate due to the keypad encoder chip. This is not a problem.

@@ -1,0 +1,16 @@
+//PIC18_KEYPAD
+
+PIC Target: PIC18F2550 (Keypad Encoder)
+
+This piece of code is the firmware loaded onto the PIC18F2550 keypad encoder PIC. The chip is physically located in the south west cornder of the board, just to the left of the 4x4 keypad.
+
+! This code is not intended for and should not be loaded on to the main PIC (PIC18F4620). Under normal circumstances, this code should serve as a demostartion only !
+Build and upload operations should be performed from MPLABX IDE. The hex file have not been provided explicitly to avoid accidental loading of this software onto incorrect PICs.
+
+
+In the event that the keypad encoder chip need to be restored to the original firmware, there are two options:
+
+1. Using an extenal PICKIT2 or PICKIT3 programmer: Take an standalong PICKIT2 or 3 and plug the programmer into the 6 pin male ICSP header on the left side of the board. The white triangle on the programmer marks PIN1, which corrospode to "1" marked on the board. Select the external PICKIT tool as the programmer before building and compiling. MPLABX will likely try to update the firmware on the PICKIT3 programmer before it can be used, which might take some time.
+
+2. Using the onboard PICKIT3 programmer: Flip the prog/run switch to "RUN", which will isolate the PICKIT 3 from the main PIC18F4620. Then use jumper wires and connect each pin of the ICSP_EXT box header to the corrosponding pins for the keypad PIC programming header. The pin numbers are marked on the board, but for reference: Pin1 for ICSP_EXT is on the right edge, and 6 is on the left. Pin1 for the keypad PIC header is the pin on the very top and 6 is on the bottom.
+There is no need to remove the main PIC, however all programming operations must be performed with the prog/run switch set to "RUN". All jumper cables MUST BE REMOVED before the programmer can be switched back to PROG in order to avoid any unintended connectoin between the main PIC and keypad PIC.

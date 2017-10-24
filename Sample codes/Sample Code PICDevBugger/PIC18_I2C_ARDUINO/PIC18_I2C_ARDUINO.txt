@@ -1,0 +1,32 @@
+\\ PIC18_I2C_ARDUINO
+
+Oscillator Used: 	External 10MHZ only
+Language: 			C MPLAB XC8
+LCD: 				Hitiachi HD44780 16x2
+KEYPAD: 			Matrix 4X4
+RTC:				Not Used
+Arduino:			Arduino Nano, ATmega328, 5v
+A2D:				Not Used
+
+This code is a demostratoin of I2C communication between two devices. Specifically between the PIC18F4620 and Arduino Nano board.
+
+
+Instructions:
+
+1. Move all "ARDUINO - PIC LINK SWTICH" to the off position except for switch 1 and 2 on the lower bank (S3). This will enable I2C link between the arduino and PIC. (A4 and A5 pin for the arduino, RC4 and RC3 for the PIC)
+
+2.Load "PIC18_I2C_ARDUINO.hex" onto the main PIC as you would normally, through the onboard PICKIT3 programmer.
+
+3. Plug in an arduino Nano board to the computer using a USB A to Mini-B cable.
+
+4. Open "ARDUINO_I2C_RECIEVER.ino" in the arduino IDE, and select "Arduino Nano" for the board, and "ATmega328" for the processor. Choose the new COM port that appeared after the arduino was plugged in (you may need to remove and re-attach the arduino to check).
+
+5. Upload the arduino code to the board and open serial monitor.
+
+6. Plug in the arduino board onto the "Arduino Nano Board" socket on the PIC Devbugger. Be careful to align the arduino with the usb cable pointing out of the board, and the left 2 positions of the socket un-occupied. The socket on the Devbugger is 16 positions wide while the Adruino board have 15 pins on each side. The left most pin of the socket on the dev board are not connected.
+
+7. After the arduino is properly connected to the Devbugger, the serial monitor should display the values input by the keypad.
+
+8. To reverse the direction of data and let PIC recieve data sent from arduino, press the letter "A" on the keypad 3 times ("AAA"). The PIC will now enter reciever mode, and character sent to the arduino through the serial monitor will now be displayed on the LCD onboard the devbugger. 
+
+9. To revert back to PIC -> Arduino communication, reset the PIC using the reset botton on the board. 

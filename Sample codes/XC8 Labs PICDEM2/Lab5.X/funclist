@@ -1,0 +1,9 @@
+_TIMER1_ISR: CODE, 56 0 16
+_main: CODE, 38 0 18
+_Interrupthandler: CODE, 4 0 11
+_TIMER1_StartTimer: CODE, 96 0 3
+__initialization: CODE, 93 0 0
+_TIMER1_CallBack: CODE, 72 0 13
+_InitSystem: CODE, 85 0 8
+_TIMER1_initializer: CODE, 17 0 21
+Total: 90

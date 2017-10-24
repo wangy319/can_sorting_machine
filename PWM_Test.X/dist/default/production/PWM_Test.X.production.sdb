@@ -1,0 +1,218 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"8 /Applications/microchip/xc8/v1.41/sources/common/aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"32 /Applications/microchip/xc8/v1.41/sources/common/awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 /Applications/microchip/xc8/v1.41/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 /Applications/microchip/xc8/v1.41/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 /Applications/microchip/xc8/v1.41/sources/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 /Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 /Applications/microchip/xc8/v1.41/sources/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 /Applications/microchip/xc8/v1.41/sources/common/fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"28 /Applications/microchip/xc8/v1.41/sources/common/lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"10 /Applications/microchip/xc8/v1.41/sources/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 /Applications/microchip/xc8/v1.41/sources/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 /Applications/microchip/xc8/v1.41/sources/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 /Applications/microchip/xc8/v1.41/sources/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"17 /Users/ouutsuyuki/Desktop/AER201/Microcontroller/PWM_Test.X/newmain.c
+[v _PWM_Max_Duty PWM_Max_Duty `(i  1 e 2 0 ]
+"22
+[v _PWM1_Init PWM1_Init `(i  1 e 2 0 ]
+"28
+[v _PWM2_Init PWM2_Init `(i  1 e 2 0 ]
+"34
+[v _PWM1_Duty PWM1_Duty `(i  1 e 2 0 ]
+"45
+[v _PWM2_Duty PWM2_Duty `(i  1 e 2 0 ]
+"56
+[v _PWM1_Start PWM1_Start `(i  1 e 2 0 ]
+"80
+[v _PWM2_Start PWM2_Start `(i  1 e 2 0 ]
+"104
+[v _main main `(v  1 e 1 0 ]
+"1588 /Applications/microchip/xc8/v1.41/include/pic18f4620.h
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"2030
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"4194
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @4027 ]
+"4308
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+"5042
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"6696
+[v _CCP1M2 CCP1M2 `VEb  1 e 0 @32234 ]
+"6698
+[v _CCP1M3 CCP1M3 `VEb  1 e 0 @32235 ]
+"6700
+[v _CCP1X CCP1X `VEb  1 e 0 @32237 ]
+"6702
+[v _CCP1Y CCP1Y `VEb  1 e 0 @32236 ]
+"6714
+[v _CCP2M2 CCP2M2 `VEb  1 e 0 @32210 ]
+"6716
+[v _CCP2M3 CCP2M3 `VEb  1 e 0 @32211 ]
+"6718
+[v _CCP2X CCP2X `VEb  1 e 0 @32213 ]
+"6720
+[v _CCP2Y CCP2Y `VEb  1 e 0 @32212 ]
+"7350
+[v _RD0 RD0 `VEb  1 e 0 @31768 ]
+"7352
+[v _RD1 RD1 `VEb  1 e 0 @31769 ]
+"7356
+[v _RD2 RD2 `VEb  1 e 0 @31770 ]
+"7358
+[v _RD3 RD3 `VEb  1 e 0 @31771 ]
+"7538
+[v _T2CKPS0 T2CKPS0 `VEb  1 e 0 @32336 ]
+"7540
+[v _T2CKPS1 T2CKPS1 `VEb  1 e 0 @32337 ]
+"7586
+[v _TMR2ON TMR2ON `VEb  1 e 0 @32338 ]
+"7634
+[v _TRISC1 TRISC1 `VEb  1 e 0 @31905 ]
+"7636
+[v _TRISC2 TRISC2 `VEb  1 e 0 @31906 ]
+"15 /Users/ouutsuyuki/Desktop/AER201/Microcontroller/PWM_Test.X/newmain.c
+[v _freq freq `l  1 e 4 0 ]
+"104
+[v _main main `(v  1 e 1 0 ]
+{
+"106
+[v main@j j `ui  1 a 2 63 ]
+[v main@i i `ui  1 a 2 61 ]
+"130
+} 0
+"80
+[v _PWM2_Start PWM2_Start `(i  1 e 2 0 ]
+{
+"96
+} 0
+"28
+[v _PWM2_Init PWM2_Init `(i  1 e 2 0 ]
+{
+[v PWM2_Init@fre fre `l  1 p 4 14 ]
+"32
+} 0
+"45
+[v _PWM2_Duty PWM2_Duty `(i  1 e 2 0 ]
+{
+[v PWM2_Duty@duty duty `ui  1 p 2 56 ]
+"54
+} 0
+"56
+[v _PWM1_Start PWM1_Start `(i  1 e 2 0 ]
+{
+"72
+} 0
+"22
+[v _PWM1_Init PWM1_Init `(i  1 e 2 0 ]
+{
+[v PWM1_Init@fre fre `l  1 p 4 14 ]
+"26
+} 0
+"34
+[v _PWM1_Duty PWM1_Duty `(i  1 e 2 0 ]
+{
+[v PWM1_Duty@duty duty `ui  1 p 2 56 ]
+"43
+} 0
+"28 /Applications/microchip/xc8/v1.41/sources/common/lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+{
+[v ___lwtoft@c c `ui  1 p 2 8 ]
+"31
+} 0
+"44 /Applications/microchip/xc8/v1.41/sources/common/fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 51 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 55 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 50 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 41 ]
+"73
+} 0
+"62 /Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 36 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 40 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 39 ]
+[v ___ftmul@exp exp `uc  1 a 1 35 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 26 ]
+[v ___ftmul@f2 f2 `f  1 p 3 29 ]
+"157
+} 0
+"54 /Applications/microchip/xc8/v1.41/sources/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 21 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 25 ]
+[v ___ftdiv@exp exp `uc  1 a 1 24 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 20 ]
+"54
+[v ___ftdiv@f1 f1 `f  1 p 3 11 ]
+[v ___ftdiv@f2 f2 `f  1 p 3 14 ]
+"86
+} 0
+"32 /Applications/microchip/xc8/v1.41/sources/common/awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 23 ]
+"32
+[v ___awtoft@c c `i  1 p 2 20 ]
+"42
+} 0
+"62 /Applications/microchip/xc8/v1.41/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"17 /Users/ouutsuyuki/Desktop/AER201/Microcontroller/PWM_Test.X/newmain.c
+[v _PWM_Max_Duty PWM_Max_Duty `(i  1 e 2 0 ]
+{
+"20
+} 0
+"8 /Applications/microchip/xc8/v1.41/sources/common/aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"11
+[v ___aldiv@quotient quotient `l  1 a 4 10 ]
+"12
+[v ___aldiv@sign sign `uc  1 a 1 9 ]
+[v ___aldiv@counter counter `uc  1 a 1 8 ]
+"8
+[v ___aldiv@dividend dividend `l  1 p 4 0 ]
+[v ___aldiv@divisor divisor `l  1 p 4 4 ]
+"42
+} 0

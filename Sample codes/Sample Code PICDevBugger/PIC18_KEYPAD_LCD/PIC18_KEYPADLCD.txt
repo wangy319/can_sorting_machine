@@ -1,0 +1,12 @@
+\\ PIC18_KEYPADLCD
+
+Oscillator Used: 	External 10MHZ only
+Language: 			C MPLAB XC8
+LCD: 				Hitiachi HD44780 16x2
+KEYPAD: 			Matrix 4X4
+RTC:				Not Used
+Arduino:			Not Used
+A2D:				Not Used
+
+This code serve as a simple demostratoin for how to read from keypad input and display it on the LCD in C. Upon startup, the LCD will display the character corrosponding to the key pressed on the keypad.
+Note the prog/run switch must be switched to 'RUN' inorder for keypad input to work properly, since the keypad encoder share pins with the programmer.

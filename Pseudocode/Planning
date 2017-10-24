@@ -1,0 +1,21 @@
+Plans for Coding
+
+1. Finish all of the state code for one can first, make it work, then modify it for another can. (Pop can first, because tin can is easier)
+
+2. 	MAIN
+		standby mode setting
+	
+		If start is pressed -> Interrupt to the operation level LEVEL 1
+
+	LEVEL1
+		mechanical parts move
+
+		2 FSM
+
+		3s -> terminate
+
+
+3. When using interrupt, make sure the memory is enough.
+
+
+

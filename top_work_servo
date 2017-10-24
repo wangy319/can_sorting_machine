@@ -1,0 +1,116 @@
+/*
+ * File:   Servo.c
+ * Author: ouutsuyuki
+ *
+ * Created on March 17, 2017, 12:09 PM
+ */
+
+#include <xc.h>
+#include <stdio.h>
+#include "configBits.h"
+#include "constants.h"
+#include "lcd.h"
+#include "I2C.h"
+#include "macros.h"
+#include "operation.h"
+#include "global.h"
+#include "top_rocker_fsm.h"
+#include "top_distribution_fsm.h"
+#include "solenoids.h"
+#include "motors.h"
+#include "bottom_distribution_fsm.h"
+#include "bottom_rocker_fsm.h"
+#include "servo.h"
+
+
+/*  
+ * This is how you call these functions
+    top_servo_neutral(); //0 Degree     to the initial position
+    __delay_ms(500);
+*/    
+ 
+/*
+void bottom_servo_init();
+void bottom_servo_rightTilt();
+void bottom_servo_leftTilt();
+void top_servo_init();
+void top_servo_rightTilt();
+void top_servo_leftTilt();
+*/
+
+void bottom_servo_init() //0 Degree
+{
+  unsigned int i;
+  for(i=0;i<50;i++)
+  {
+    LATBbits.LATB3 = 1;
+    __delay_us(1550);
+    LATBbits.LATB3 = 0;
+    __delay_us(17800);
+  }
+}
+
+void bottom_servo_rightTilt()
+{
+  unsigned int i;
+  for(i=0;i<50;i++)
+  {
+    LATBbits.LATB3 = 1;
+    __delay_ms(2);
+    LATBbits.LATB3 = 0;
+    __delay_ms(18);
+  }
+}
+
+void bottom_servo_leftTilt()
+{
+  unsigned int i;
+  for(i=0;i<50;i++)
+  {
+    LATBbits.LATB3 = 1;
+    __delay_us(1200);
+    LATBbits.LATB3 = 0;
+    __delay_us(17800);
+  }
+}
+
+
+
+
+
+
+void top_servo_init() //0 Degree
+{
+  unsigned int i;
+  for(i=0;i<50;i++)
+  {
+    LATBbits.LATB2 = 1;
+    __delay_us(1500);
+    LATBbits.LATB2 = 0;
+    __delay_us(18500);
+  }
+}
+
+void top_servo_rightTilt() 
+{
+  unsigned int i;
+  for(i=0;i<10;i++)
+  {
+    LATBbits.LATB2 = 1;
+    __delay_us(2200);
+    LATBbits.LATB2 = 0;
+    __delay_us(17800);
+  }
+}
+
+void top_servo_leftTilt() //180 Degree
+{
+  unsigned int i;
+  for(i=0;i<10;i++)
+  {
+    LATBbits.LATB2 = 1;
+    __delay_us(800);
+    LATBbits.LATB2 = 0;
+    __delay_us(19200);
+  }
+}

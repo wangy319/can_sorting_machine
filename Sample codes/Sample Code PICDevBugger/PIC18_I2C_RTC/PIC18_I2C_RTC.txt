@@ -1,0 +1,13 @@
+//PIC18_I2C_RTC
+
+Oscillator Used: 	External 10MHZ only
+Language: 			C MPLAB XC8
+LCD: 				Hitiachi HD44780 16x2
+KEYPAD: 			Not Used
+RTC:				DS1307
+Arduino:			Not Used
+A2D:				Not Used
+
+
+This piece of code serve as a I2C master read and write demostration. The PIC will first set time of the RTC chip (DS1307) to 2016 December 31, 23:59:45, then read back the time kept on the RTC and display on the LCD. The code might not functoin correctly unless the prog/run switch is set to RUN. It is good practice to always set the switch back to RUN after programming inorder to avoid stange behavior of the PIC during runtime.
+This code will also work identically if the boards are equipped with a DS1308 time keeping chip (surface mount variant).
